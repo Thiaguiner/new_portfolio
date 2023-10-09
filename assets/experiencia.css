@@ -1,48 +1,46 @@
-.experiencia{
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
-  }
-.experiencia .subtitulo{
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+.experiencia .subtitulo {
   color: #cfcfcf;
 }
-.experiencia-texto{
+.experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   margin-bottom: 60px;
   max-width: 50ch;
   color: #525252;
-  
 }
 
-.experiencia-texto strong{
+.experiencia-texto strong {
   color: #141414;
 }
-.projetos{
-display: grid;
-grid-template-columns: 1fr 1fr;
-padding: 20px;
-background-color: #cfcfcf;
-margin-bottom: 20px;
-border-radius: 4px;
-position: relative;
-gap: 10px 20px;
-
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color: #cfcfcf;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+  gap: 10px 20px;
 }
-.projetos::before{
-content: '';
-display: block;
-width: 4px;
-height: 20px;
-background: linear-gradient(#b6f829, #67dd0a);
-position: absolute;
-top: 20px;
-left: -4px;
+.projetos::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  top: 20px;
+  left: -4px;
 }
-.projeto-ano{
+.projeto-ano {
   position: absolute;
   top: 23px;
   left: -100px;
@@ -51,50 +49,50 @@ left: -4px;
   text-align: right;
   width: 80px;
 }
-.projeto-titulo{
+.projeto-titulo {
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
 }
-.projeto-texto{
+.projeto-texto {
   font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
-.projeto-habilidades{
+.projeto-habilidades {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-content: start;
 }
-.projeto-habilidades li{
+.projeto-habilidades li {
   font-size: 14px;
   line-height: 1.4;
   border-radius: 4px;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 5px 10px;
 }
 
-@media (max-width:800px) {
-  .experiencia{
+@media (max-width: 800px) {
+  .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .experiencia .subtitulo{
+  .experiencia .subtitulo {
     color: #141414;
   }
-  .experiencia-texto{
+  .experiencia-texto {
     font-size: 1.25rem;
   }
-  .projeto-ano{
+  .projeto-ano {
     position: initial;
     order: 1;
     width: initial;
     text-align: left;
   }
 }
-@media (max-width:400px){
-  .projeto{
+@media (max-width: 400px) {
+  .projeto {
     grid-template-columns: 1fr;
   }
 }
